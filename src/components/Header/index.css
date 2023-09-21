@@ -62,6 +62,9 @@
 .nav-element {
   margin-left: 12px;
   margin-right: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .logout-button {
@@ -74,4 +77,12 @@
   background-color: #4f46e5;
   font-size: 16px;
   padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.logout-icon-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
 }
