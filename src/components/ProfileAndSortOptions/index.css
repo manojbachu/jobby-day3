@@ -2,7 +2,7 @@
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
   width: 100%;
   background-size: cover;
-  margin-top: 25px;
+
   height: 180px;
   border-radius: 15px;
   padding: 25px 15px 25px 15px;
@@ -15,7 +15,7 @@
 .user-name {
   font-family: 'Roboto';
   color: #6366f1;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .short-bio {
@@ -52,4 +52,11 @@
   border: 1px solid #7e858e;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+@media (min-width: 767px) {
+  .profile-filters {
+    width: 300px;
+    margin-right: 20px;
+  }
 }
