@@ -89,10 +89,10 @@ class ProfileAndSortOptions extends Component {
 
   render() {
     return (
-      <>
+      <div className="profile-filters">
         {this.renderProfileCard()}
         <hr className="break-line" />
-      </>
+      </div>
     )
   }
 }
